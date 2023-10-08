@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    overflow-x: hidden;
+}
+.contenedor-formulario{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #7e3a50;
+}
+.contenedor-formulario-b{
+    display: flex;
+    height: 87vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #7e3a50;
+}
+
+.formulario{
+    border: .1px solid white;
+    border-radius: 20px;
+    width: 450px;
+    padding: 15px;
+    padding-bottom: 50px;
+
+    background-color: rgba(0, 0, 0, 0.065);   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-h1{
+    color: white;
+    margin: 20px;
+}
+
+input{
+    border: none;
+    width: 70%;
+    margin: 10px;
+    border-bottom: .1px solid white;
+    background-color: transparent;
+    color: aliceblue;
+    padding: 10px;
+    font-size: medium;
+}
+input:focus, input:active {
+    background: transparent;
+}
+::placeholder{
+    color: white;
+}
+
+.send{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    padding: 10px 30px 10px 30px;
+    margin: 10px;
+    border-radius: 30px;
+    
+    
+}
+
+.redirect a,.redirect{color: rgba(255, 255, 255, 0.709);}
+
+.redirect a{font-weight: bold;
+color: white;}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    
+}
+
+.navc{
+    width: 100%;
+    height: 13vh;
+    background-color:rgba(53, 51, 51, 0.62);
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.hlogo{width: 100%;
+    display: flex;
+justify-content: center;
+padding-top: 7px;
+}
+img{
+    width: 30px;
+}
+
+.hmiddle{
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hside{
+    display: flex;
+    width: 15%;
+    align-items: center;
+}
+.hleft{
+justify-content: start;
+}
+.hright{
+    justify-content: end;
+}
+.logo{
+    width: 60px;
+
+}
+
+.menu{
+    display: flex;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.boton{
+    font-family: Arial, sans-serif;
+    color: azure;
+    text-decoration: none;    
+}
+
+.boton:hover{
+    color: rgb(154, 168, 168);
+}
+
+.fa-user{
+    font-size: 30px;
+}
