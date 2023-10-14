@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div{
+    border: 1px solid black;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 100%;
+    height: 50px;
+    }
+
+.barra{
+    border: 5px solid black;
+    background-color: rgb(160, 166, 170);
+}
+
+@keyframes cargando {
+    0% {width: 0%;}
+    100% {width: 100%;}
+}
+
+.carga{
+    width: 50%;
+    background-color: rgb(90, 179, 90);
+    height: 100%;
+    animation-name: cargando;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cargando {
+    0% {width: 0%;}
+    100% {width: 100%;}
+}
+
+button{width: 100%;
+height: 100%;}
+
+.boton{
+    width: 150px;
+}
+
+.tarjeta{
+    display: flex;
+    height: 150px;
+    border: none;
+    box-shadow: 0 0 30px -8px black;
+    width: 150px;
+    flex-direction: column;
+    border:1px solid black;
+}
+
+img{
+    height: 130px;
+}
+
+.tarjeta:hover{
+    transition-duration: .5s;
+    transform: rotate(-10deg) scale(1.1);
+    
+}
+.tarjeta:not(:hover){
+    transition-duration: .5s;
+}
+button {
+    background-color: #DB1F48;
+    color: #222020;
+    transition: 1s;
+  }
+  
+  button:hover {
+    color: #fff;
+    background-color: #004369;
+    box-shadow: 0 0 40px -8px black;
+  }
+  
