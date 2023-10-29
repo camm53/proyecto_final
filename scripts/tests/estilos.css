@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{border: 1px solid black;
+width: 100%;}
+.cont{
+display: flex;
+    height: 100vh;
+flex-direction: column;
+
+
+}
+.item{background-color: aqua;
+
+    width: 100%;
+}
+.item1{
+    height: 100px;
+}
+
+.item2{
+    background-image: url(https://www.evanstonpsychologists.com/wp-content/uploads/2022/06/evanston-therapist-2.jpg);
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+}
+
+.dos{
+    backdrop-filter: blur(50px);
+}
+
+.rojo{
+    background-color: red;
+}
