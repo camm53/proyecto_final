@@ -1,12 +1,23 @@
 .cara{
-fill: aqua;
+fill: rgb(80, 212, 246);
+stroke: rgb(191, 236, 124);
+stroke-width: 10;
 }
 .boca{
-
+    stroke: black;
+    stroke-width: 10;
+    fill: black;
 }
 .ojo{
-
+    fill:aquamarine;
+    stroke: black;
+    stroke-width: 10;
 }
 .ceja{
+stroke: black;
+stroke-width: 14;
+}
 
+.ojo:hover{
+    fill: red;
 }
