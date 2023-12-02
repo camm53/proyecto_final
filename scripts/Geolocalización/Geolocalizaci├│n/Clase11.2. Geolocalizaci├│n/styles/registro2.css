@@ -1,0 +1,87 @@
+/* Reset básico y configuración general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Recomiendo utilizar una fuente como Poppins para un look más moderno */
+    transition: all 0.3s ease-in-out; /* Transiciones suaves para los cambios de estado */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(120deg, #f6d365, #fda085);
+}
+
+form {
+    width: 340px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+form div {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus {
+    outline: none;
+    border-color: #ff9f00; /* Se resalta el campo al enfocarse */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(255, 159, 0, 0.2);
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-image: linear-gradient(120deg, #f6d365, #fda085);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-image: linear-gradient(120deg, #fda085, #f6d365); /* Invertir colores al pasar el ratón */
+}
+
+input[type="submit"]:active {
+    transform: scale(0.98); /* Ligeramente más pequeño al presionar */
+}

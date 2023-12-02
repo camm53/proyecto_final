@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "arial"
+}
+
+form{
+    border: 2px red solid;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+input{
+    display: block;
+}

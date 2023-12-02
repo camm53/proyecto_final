@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/geolocalizacion.css">
+    <script src="https://kit.fontawesome.com/fa36d49c1a.js" crossorigin="anonymous"></script>
+    <title>Header</title>
+</head>
+<body>
+    <header>
+    <nav class="barraDeNavegacion">
+        <ul>
+            <li class="noStyle"><a href="#"><img src="./img/gato.jpg" alt=""></a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+            <li class="noStyle"><a href="registro.html"><i class="fa-solid fa-user"></i></a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <div id="map", class="map">
+
+    </div>
+
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBMuXv2Lrnm911rAhTGJzH1og7udgw4Ok&callback=initMap">
+</script>
+
+
+
+
+<script>
+    const coord ={lat: 19.432947, lng:-99.133349}
+    const mapDiv = document.getElementById("map");
+    let map
+    let marker
+    function initMap() {
+        map = new google.maps.Map(mapDiv, {
+            center: coord,
+            zoom: 9,
+        });
+    
+    marker = new google.maps.Marker({
+        position: coord,
+        map: map
+    })
+}
+</script>
+
+</body>
+</html>

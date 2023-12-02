@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "arial"
+}
+
+body{
+    width: 100%;
+}
+
+nav{
+    background-color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li{
+    width: 200px;
+    list-style: none;
+    font-size: 22px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: all 250ms;
+}
+
+.noStyle:hover {
+    transform: scale(1.05);
+}
+
+li:hover:not(.noStyle){
+   background-color: gray; 
+   transform: scale(1.1);
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    margin-top: 4px;
+}
+
+.fa-user{
+    font-size: 30px;
+    color:rgb(250, 0, 0);
+}
+
+
+
+
+.map{
+    margin-top: 150px;
+    margin-left: 150px;
+    width: 400px;
+    height: 300px;
+    border:2px red solid;
+}

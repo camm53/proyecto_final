@@ -1,0 +1,72 @@
+/* Estilos generales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "arial";
+}
+
+form {
+    width: 300px;
+    margin: 50px auto 0; 
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Título del formulario */
+form div:first-of-type {
+    font-size: 16px; 
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para las etiquetas y entradas */
+label {
+    display: block;
+    margin: 10px 0px 5px 0px;
+    font-size: 14px; 
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Botón de Iniciar Sesión */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Links de redirección y olvidé mi contraseña */
+.link-redireccion {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.link-redireccion a {
+    color: #333;
+    text-decoration: none;
+}
+
+.link-redireccion a:hover {
+    text-decoration: underline;
+}
